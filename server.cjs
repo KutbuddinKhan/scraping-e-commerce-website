@@ -8,8 +8,9 @@ const PORT = 8000;
 const app = express();
 app.use(cors());
 
-const username = "kutbuddinkhan82";
-const password = "Kkhan2001";
+// https://dashboard.oxylabs.io/en/overview -> oxylabs API username and password
+const username = "<username>";
+const password = "<password>";
 
 app.get('/deals', async (req, res) => {
     try {
